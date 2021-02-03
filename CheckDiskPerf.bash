@@ -20,7 +20,7 @@ OutFile="./$today.SDBTestRun.out"
 echo $Outfile
 echolog $today
 ## Vars
-FioRunTime=
+FioRunTime=10 ## time to run fio scripts in seconds
 echolog "MSG FioRunTime is $FioRunTime"
 FioNumJobs=2
 echolog "MSG FioNumJobs is $FioNumJobs"
